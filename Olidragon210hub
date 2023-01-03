@@ -904,13 +904,13 @@ local R6script = Window:NewTab ("R6script")
 
 local R6scriptSection = R6script:NewSection("R6script")
 
-NetlessSection:NewButton("Le tank (R6)", "Dans les fesses", function()
+R6scriptSection:NewButton("Le tank (R6)", "Dans les fesses", function()
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/arko34920v2/TANKULATOR/main/TANKMORPHS'))()
 
 end)
 
-NetlessSection:NewButton("corps de bite cheloue (R6 UTILISE LA REA)", "coucou", function()
+R6scriptSection:NewButton("corps de bite cheloue (R6 UTILISE LA REA)", "coucou", function()
 
     local plr = game.Players.LocalPlayer
 
@@ -2594,9 +2594,9 @@ end
 
 end)
 
-NetlessSection:NewButton("La pyramide (R6)", "WTF", function()
 
-    local plr = game.Players.LocalPlayer
+
+local plr = game.Players.LocalPlayer
 
 game:GetService("RunService").Stepped:Connect(function()
 
